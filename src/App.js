@@ -18,9 +18,27 @@ const Home = () => (
     <h1>Home</h1>
   </Jumbotron>
 );
-const Other = () => (
+const About = () => (
   <Jumbotron>
-    <h1>Other</h1>
+    <h1>About Jami</h1>
+  </Jumbotron>
+);
+
+const Services = () => (
+  <Jumbotron>
+    <h1>Services</h1>
+  </Jumbotron>
+);
+
+const Shop = () => (
+  <Jumbotron>
+    <h1>Shop</h1>
+  </Jumbotron>
+);
+
+const Cart = () => (
+  <Jumbotron>
+    <h1>Cart</h1>
   </Jumbotron>
 );
 
@@ -39,7 +57,10 @@ function App() {
       {isLoading ? <Loading /> : null}
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/other" component={Other} />
+        <Route path="/about" component={About} />
+        <Route path="/services" component={Services} />
+        <Route path="/shop" component={Shop} />
+        <Route path="/cart" component={Cart} />
         <Route path="/signup" component={SignUp} />
         <Route path="/login" component={Login} />
       </Switch>

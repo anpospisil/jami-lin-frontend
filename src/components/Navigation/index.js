@@ -22,8 +22,11 @@ export default function Navigation() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav style={{ width: "100%" }} fill>
           <NavbarItem path="/" linkText="Home" />
-          <NavbarItem path="/other" linkText="Other" />
+          <NavbarItem path="/about" linkText="About Jami" />
+          <NavbarItem path="/services" linkText="Services" />
+          <NavbarItem path="/shop" linkText="Shop" />
           {loginLogoutControls}
+          <NavbarItem path="/cart" linkText="Cart" />
         </Nav>
       </Navbar.Collapse>
     </Navbar>
