@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Jumbotron, Button, Card, Carousel } from "react-bootstrap"
+import ArticleCard from "../../components/ArticleCard";
 
 export default function Home() {
   return (
@@ -26,18 +27,7 @@ export default function Home() {
             </Col>
 
             <Col lg={4} md={6} mb={4}>
-              <Card className="">
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                  <Card.Title>Special title treatment</Card.Title>
-                  <Card.Text>
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-                <Card.Footer className="text-muted">CATEGORY</Card.Footer>
-              </Card>
+              <ArticleCard />
             </Col>
           </Row>
           {/* <!-- /.row --> */}
@@ -98,18 +88,7 @@ export default function Home() {
             <h4 class="my-4 text-center">Last Viewed</h4>
             <Row>
               <Col lg={12}>
-                <Card className="">
-                  <Card.Img variant="top" src="holder.js/100px180" />
-                  <Card.Body>
-                    <Card.Title>Special title treatment</Card.Title>
-                    <Card.Text>
-                      With supporting text below as a natural lead-in to
-                      additional content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                  </Card.Body>
-                  <Card.Footer className="text-muted">CATEGORY</Card.Footer>
-                </Card>
+                <ArticleCard />
               </Col>
             </Row>
           </Col>
