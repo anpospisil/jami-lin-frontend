@@ -1,8 +1,15 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
+import {Link} from 'react-router-dom'
+import { Col, Button } from 'react-bootstrap'
 
-export default function CTAButton() {
+export default function CTAButton(props) {
+    
+     const {text, to} = props
+    
     return (
-       <Button></Button>
+        <Col lg={4} className="centered mt-4">
+
+           <Link to={to}><Button>{text}</Button></Link>
+        </Col>
     )
 }

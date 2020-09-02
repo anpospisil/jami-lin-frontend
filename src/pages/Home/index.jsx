@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Row, Col, Jumbotron, Button, Card, Carousel } from "react-bootstrap"
+import { Container, Row, Col, Jumbotron, Button, Carousel } from "react-bootstrap"
 import ArticleCard from "../../components/ArticleCard";
+import CTAButton from "../../components/CTAButton";
 
 export default function Home() {
   return (
@@ -79,9 +80,7 @@ export default function Home() {
             </Col>
             {/* INSERT CAROUSEL */}
 
-            <Col lg={4} className="centered mt-4">
-              <a class="btn btn-block">VIEW SHOP</a>
-            </Col>
+            <CTAButton text="view shop" to="/shop"/>
           </Row>
           </Col>
           <Col lg={3} md={6} mb={4}>
