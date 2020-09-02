@@ -1,5 +1,5 @@
 import React from 'react'
-import {Col, Card, Button} from 'react-bootstrap'
+import {Card, Button} from 'react-bootstrap'
 
 export default function ArticleCard() {
     return (

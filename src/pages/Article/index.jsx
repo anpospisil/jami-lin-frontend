@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Jumbotron } from "react-bootstrap";
-
-import { ArticleCard, ShopItemCard } from "../../components";
+import ArticleCard from "../../components/ArticleCard";
+import ShopItemCard from "../../components/ShopItemCard";
 import CTAButton from "../../components/CTAButton";
+
 
 export default function Article() {
   return (
