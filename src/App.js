@@ -9,6 +9,7 @@ import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Article from "./pages/Article";
+import Shop from "./pages/Shop";
 
 import { useDispatch, useSelector } from "react-redux";
 import { selectAppLoading } from "./store/appState/selectors";
@@ -25,12 +26,6 @@ const About = () => (
 const Services = () => (
   <Jumbotron>
     <h1>Services</h1>
-  </Jumbotron>
-);
-
-const Shop = () => (
-  <Jumbotron>
-    <h1>Shop</h1>
   </Jumbotron>
 );
 
