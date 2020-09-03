@@ -1,0 +1,29 @@
+@import "./style/style.scss";
+
+body {
+  font-family: $body-font;
+  color: $body-text;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $header-font;
+  letter-spacing: 1.5px;
+}
+
+.btn-custom {
+  padding: 13px 0 13px 0;
+  min-width: 144px;
+  background-color: #ffcbb9!important;
+  box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #ffded3!important;
+  transform: scale(1.02);
+  box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}

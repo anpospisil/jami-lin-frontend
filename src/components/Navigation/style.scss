@@ -1,0 +1,36 @@
+@import "../../style/style.scss";
+
+.logo-first {
+  font-size: 30px;
+}
+
+.rest {
+  border-bottom: 2px solid #ffcbb9;
+}
+
+.navbar {
+  border-bottom: double 4px #323232;
+  outline: solid 1px #323232;
+  box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+// .icon-background {
+//   color: #ffcbb9;
+// }
+// .fa-search {
+//   color: rgba(0, 0, 0, 0.5);
+// }
+// .fa-search:hover {
+//   color: #000;
+// }
+
+// #searchbar {
+//   display: none;
+// }
+// input {
+//   border: 0;
+//   outline: 0;
+//   margin-left: 5px;
+//   border-bottom: 1px solid darkgrey;
+// }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import "./style.scss"
 
 export default function Footer() {
   return (
@@ -54,7 +55,7 @@ export default function Footer() {
         <Row>
           <div class="col-lg-12">
             <p class="text-center text-muted">
-              Copyright &copy; Andrew Pospisil Designs 2020
+              Copyright &copy; Andrew Pospisil Design 2020
             </p>
           </div>
         </Row>
