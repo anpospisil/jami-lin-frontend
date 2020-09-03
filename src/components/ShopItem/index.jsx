@@ -9,11 +9,12 @@ export default function ShopItem() {
 <Card className="mt-4">
       <Card.Img variant="top fluid" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Item Name</Card.Title>
+        <Card.Title>Product Name</Card.Title>
+        <h4>$10.00</h4>
         <Card.Text>
           Desc of Item
         </Card.Text>
-        <h4>$10.00</h4>
+        
         <StarRatingComponent
           name="rate2"
           editing={false}

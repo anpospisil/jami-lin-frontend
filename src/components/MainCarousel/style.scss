@@ -1,0 +1,12 @@
+@import "../../style/style.scss";
+
+.carousel-indicators {
+    bottom: -60px;
+  }
+  
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #333;
+  }
