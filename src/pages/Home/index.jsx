@@ -3,9 +3,6 @@ import {
   Container,
   Row,
   Col,
-  Jumbotron,
-  Button,
-  Carousel,
 } from "react-bootstrap";
 import ArticleCard from "../../components/ArticleCard";
 import CTAButton from "../../components/CTAButton";

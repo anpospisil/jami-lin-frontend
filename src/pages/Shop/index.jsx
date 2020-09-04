@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import ShopItemCard from '../../components/ShopItemCard'
+import "./style.scss"
 
 export default function Shop() {
     return (

@@ -1,0 +1,11 @@
+@import "../../style/style.scss";
+
+.list-group a {
+    color: #323232;
+  }
+  
+  .list-group .active {
+    background-color: #ffcbb9;
+    border: none;
+    color: #323232;
+  }

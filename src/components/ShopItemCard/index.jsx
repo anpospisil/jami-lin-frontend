@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import StarRatingComponent from "react-star-rating-component";
 
 export default function ShopItemCard() {
@@ -11,6 +11,8 @@ export default function ShopItemCard() {
         <Link to="">
           <Card.Title>Book</Card.Title>
         </Link>
+
+        <Card.Text>$30.00</Card.Text>
         <Card.Text>Description of this shop item.</Card.Text>
       </Card.Body>
       <Card.Footer>
