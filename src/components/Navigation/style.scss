@@ -5,13 +5,14 @@
 }
 
 .rest {
-  border-bottom: 2px solid #ffcbb9;
+  border-bottom: 2px solid $dk-color;
 }
 
 .navbar {
-  border-bottom: double 4px #323232;
-  background-color: white!important;
-  outline: solid 1px #323232;
+  margin-bottom: auto;
+  border-bottom: double 4px $body-text;
+  background-color: $bg-color!important;
+  outline: solid 1px $body-text;
   box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.2);
   z-index: 999;
 }

@@ -3,7 +3,7 @@
 .spacer {
     height: 120px;
     margin: 0!important;
-    background-color: #fef1ec!important;
+    background-color: #EAF9FE!important;
   }
   
   .article-cat {
@@ -14,7 +14,7 @@
   }
   
   .article-background {
-    background: #fff1ec!important;
+    background: $lt-color!important;
   }
   
   .article-header {
@@ -52,7 +52,7 @@
   ol li:before {
     margin-bottom: 20px;
     content: counter(item);
-    background: #fff1ec;
+    background: $lt-color;
     border-radius: 100%;
     width: 60px;
     height: 60px;
