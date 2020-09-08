@@ -4,7 +4,7 @@ import "./style.scss"
 
 export default function Footer() {
   return (
-    <footer class="pt-5 bg-dark">
+    <footer class="pt-5 footer">
       <Container>
         <Row>
           <Col lg={4}>
