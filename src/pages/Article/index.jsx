@@ -20,7 +20,7 @@ export default function Article() {
         <Col lg={12}>
           <Jumbotron fluid className="article-background">
             <Container className="article-header">
-              <h2 className="display-4">Feng Shui Your Living Room</h2>
+              <h2 className="head display-4">Feng Shui Your Living Room</h2>
               <h3 className="lead">
                 Follow these 5 easy steps for a more balanced living room.
               </h3>
