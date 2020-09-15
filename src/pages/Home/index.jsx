@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <div>
       {/* <!-- Page Content --> */}
-      <img src={require("../../img/office.jpg")} alt="office" />
+      {/* <img src={require("../../img/office.jpg")} alt="office" /> */}
       <Container>
         <Row>
           <Col lg={9} className="main">

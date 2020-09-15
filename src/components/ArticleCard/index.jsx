@@ -10,8 +10,7 @@ export default function ArticleCard(props) {
 
   return (
     <Card className="" >
-
-      <Card.Img variant="top" src={require( `${ image }`)} />
+      <Card.Img variant="top" src={require( `../../img/office.jpg`)} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{content}</Card.Text>
