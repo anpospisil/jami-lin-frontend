@@ -1,18 +1,24 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import "./style.scss";
 
-export default function ArticleCard() {
+export default function ArticleCard(props) {
+  
+  const { title, content, image, tags} = props
+
+  console.log(image)
+
   return (
-    <Card className="">
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card className="" >
+
+      <Card.Img variant="top" src={require( `${ image }`)} />
       <Card.Body>
-        <Card.Title>Special title treatment</Card.Title>
-        <Card.Text>
-          With supporting text below as a natural lead-in to additional content.
-        </Card.Text>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>{content}</Card.Text>
       </Card.Body>
-      <Card.Footer className="text-muted">CATEGORY</Card.Footer>
+      {tags.map((tag) => {
+        return <Card.Footer className="text-muted" key={tag}>{tag}</Card.Footer>;
+      })}
     </Card>
   );
 }
