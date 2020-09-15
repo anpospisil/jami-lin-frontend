@@ -8,7 +8,7 @@ export default function Header(props) {
 
   return (
     <Col lg={12} className="header">
-      <h2 class="break">
+      <h2 className="break">
         <span>{title}</span>
       </h2>
     </Col>
