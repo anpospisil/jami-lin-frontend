@@ -6,7 +6,7 @@ import StarRatingComponent from "react-star-rating-component";
 export default function ShopItemCard({name, price, desc, image, score, tags}) {
   return (
     <Card className="" tags={tags}>
-      <Card.Img variant="top" src={require( `../../img/5elements.jpg`)}  />
+      <Card.Img variant="top" src={require( `../../img/${image}`)}  />
       <Card.Body>
         <Link to="">
           <Card.Title>{name}</Card.Title>

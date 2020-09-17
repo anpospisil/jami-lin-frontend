@@ -13,7 +13,7 @@ const articleData = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
     author: "Adora Eternia",
-    image: "../../img/office.jpg",
+    image: "office.jpg",
     published: "2012-04-23T18:25:43.511Z",
     updated: "2012-04-23T18:25:43.511Z",
     tags: ["feng shui"],
@@ -24,7 +24,7 @@ const articleData = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
     author: "Adam Eternia",
-    image: "../../img/studio.jpg",
+    image: "studio.jpg",
     published: "2012-05-23T18:25:43.511Z",
     updated: "2012-04-23T18:25:43.511Z",
     tags: ["feng shui"],
@@ -35,7 +35,7 @@ const articleData = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
     author: "Bob Loblaw",
-    image: "../../img/citrus.jpg",
+    image: "citrus.jpg",
     published: "2012-06-23T18:25:43.511Z",
     updated: "2012-04-23T18:25:43.511Z",
     tags: ["beauty, skincare"],

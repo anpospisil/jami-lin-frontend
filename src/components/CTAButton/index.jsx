@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Col, Button } from "react-bootstrap";
-import "./style.scss";
 
 export default function CTAButton(props) {
   const { text, to } = props;

@@ -12,7 +12,7 @@ export default function Shop() {
       price: 10.99,
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
-      image: "../../img/5elements.jpg",
+      image: "5elements.jpg",
       score: 4,
       tags: ["feng shui", "book"],
     },
@@ -22,7 +22,7 @@ export default function Shop() {
       price: 29.99,
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
-      image: "../../img/starter.jpg",
+      image: "starter.jpg",
       score: 4.5,
       tags: ["feng shui", "spirituality"],
     },
@@ -32,7 +32,7 @@ export default function Shop() {
       price: 14.99,
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
-      image: "../../img/rosewood.jpg",
+      image: "rosewood.jpg",
       score: 4,
       tags: ["beauty", "skincare"],
     },
@@ -42,7 +42,7 @@ export default function Shop() {
       price: 29.99,
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
-      image: "../../img/metal.jpg",
+      image: "metal.jpg",
       score: 3.5,
       tags: ["feng shui"],
     },
@@ -52,7 +52,7 @@ export default function Shop() {
       price: 21.99,
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
-      image: "../../img/body.jpg",
+      image: "body.jpg",
       score: 4,
       tags: ["beauty", "skincare"],
     },
@@ -62,7 +62,7 @@ export default function Shop() {
       price: 7.99,
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
-      image: "../../img/oil.jpg",
+      image: "oil.jpg",
       score: 5,
       tags: ["beauty", "skincare"],
     },
