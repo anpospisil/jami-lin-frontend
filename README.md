@@ -2,8 +2,7 @@
 ## Jami Lin's Passions
 
 Click :point_right: [HERE](https://jami-lin-redesign.netlify.app/) :point_left: to check out the deployed version!
-Please, keep in mind that this is a work in progress. Not all links will work as desired. 
-
+Please, keep in mind that this is a work in progress. More functionality to come!
 ## How to run this app
 
 1. Clone the app
