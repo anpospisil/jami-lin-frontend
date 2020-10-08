@@ -36,7 +36,7 @@ Got it? | Challenge |
 
 ## UX/UI stuff
 
-There are a lot of assessments and research I did for this project which I will post [here]. With a clear idea of the needs of this project, I developed sketches, wireframes, high filelity prototypes and the live site.
+There are a lot of assessments and research I did for this project which I will post [here](#). With a clear idea of the needs of this project, I developed sketches, wireframes, high filelity prototypes and the live site.
 
 ## Sketches
 
