@@ -16,9 +16,33 @@ This is the original [site](jamilin.com).
 
 ## Technical Needs Assessment
 
-At first glace there are a few challenges that really stand out.
+At first glace there are a few challenges that really require attention.
 
-1. A
+1. The site has very poor readability to the point where it becomes an accessibility issue.
+2. There is no clear visual hierarchy
+3. Not mobile friendly 
+
+## Re-design
+
+Here's a look at my [re-design](https://jami-lin-redesign.netlify.app/){:target="_blank"}.
+
+:heavy_check_mark: Readable
+:heavy_check_mark: Clear visual hierarchy with unity of design
+:heavy_check_mark: Mobile-Friendly!
+
+![redesign](https://github.com/anpospisil/jami-lin-frontend/blob/development/project/jamilinredesign.png)
+
+## UX/UI stuff
+
+There are a lot of assessments and research I did for this project which I will post [here]. With a clear idea of the needs of this project, I developed sketches, wireframes, high filelity prototypes and the live site.
+
+## Sketches
+
+![redesign](https://github.com/anpospisil/jami-lin-frontend/blob/development/project/sketch1.png)
+
+## Wireframes
+
+![redesign](https://github.com/anpospisil/jami-lin-frontend/blob/development/project/jamilinwireframe.png)
 
 ## How to run this app
 
