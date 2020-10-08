@@ -24,11 +24,13 @@ At first glace there are a few challenges that really require attention.
 
 ## Re-design
 
-Here's a look at my [re-design](https://jami-lin-redesign.netlify.app/){:target="_blank"}.
+Here's a look at my [re-design](https://jami-lin-redesign.netlify.app/).
 
-:heavy_check_mark: Readable
-:heavy_check_mark: Clear visual hierarchy with unity of design
-:heavy_check_mark: Mobile-Friendly!
+Got it? | Challenge |
+:------------ | :-------------| 
+:heavy_check_mark:| Readable |
+:heavy_check_mark:| Clear visual hierarchy with unity of design|
+:heavy_check_mark:| Mobile-Friendly!|
 
 ![redesign](https://github.com/anpospisil/jami-lin-frontend/blob/development/project/jamilinredesign.png)
 
