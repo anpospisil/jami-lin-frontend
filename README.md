@@ -6,7 +6,7 @@ Please, keep in mind that this is a work in progress. More functionality to come
 
 ## Concept
 
-This re-design started as a course project at McMaster University to use HTML, CSS and JavaScript along with UX methods such as value proposition, sketches, wireframes and client feedback to create an informed an current design. Since learning new technologies at Codaisseur Academy, I continue to develop it to have more functionality such as click tracking.
+This re-design started as a course project at McMaster University to use HTML, CSS and JavaScript along with UX methods such as value proposition, sketches, wireframes and client feedback to create an informed an current design. Since learning new technologies at Codaisseur Academy, I continue to develop the re-design's functionality.
 
 ## Original Site
 
