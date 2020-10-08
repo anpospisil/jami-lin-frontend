@@ -10,7 +10,7 @@ This re-design started as a course project at McMaster University to use HTML, C
 
 ## Original Site
 
-This is original [site](jamilin.com).
+This is the original [site](jamilin.com).
 
 ![jamilin](https://github.com/anpospisil/jami-lin-frontend/blob/development/project/jamilinoriginal.png)
 
