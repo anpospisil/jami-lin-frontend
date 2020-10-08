@@ -55,9 +55,9 @@ I just want to pause here for a sec to reflect on my first attempt at building a
 
 ## Next steps
 
-I have an active Kanban board for this project, but I woudl like to quickly outline a couple feature I am excited to develop:
+I have an active Kanban board for this project, but I would like to quickly outline a couple feature I am excited to develop:
 
-1. Click Tracking: I love the idea of a user being able to see their last viewed article. I hope to develop this further to change the product and article recommendations on the homepage.
+1. Click Tracking: I love the idea of a user being able to see their last viewed article. I hope to develop this further to change the product and article recommendations on the home page.
 2. Template Email: It's clear that branding and unity of design does not end with just a website. As such, I want to improve my Email templating skills! 
 3. Favorites: I want users favorite articles to be stored so they are able to view them once signed in. I'm excited to explore Redux some more to achieve this.
 
