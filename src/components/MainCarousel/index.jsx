@@ -1,55 +1,81 @@
-import React from 'react'
-import {Col, Carousel} from 'react-bootstrap'
-import "./style.scss"
+import React from "react";
+import { Col } from "react-bootstrap";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import StarRatingComponent from "react-star-rating-component";
+import shopData from "../../pages/Home"
+import "./style.scss";
+
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+    slidesToSlide: 3, // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+    slidesToSlide: 2, // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+};
 
 export default function MainCarousel() {
-    return (
-        <Col lg={12}>
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=First slide&bg=373940"
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>
-                Nulla vitae elit libero, a pharetra augue mollis
-                interdum.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Second slide&bg=282c34"
-              alt="Third slide"
-            />
+  // const { name, price, desc, image, score } = props;
 
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=20232a"
-              alt="Third slide"
+  return (
+    <Col lg={12}>
+      <Carousel
+        swipeable={false}
+        draggable={false}
+        showDots={true}
+        responsive={responsive}
+        ssr={true} // means to render carousel on server-side.
+        infinite={true}
+        autoPlay={false}
+        autoPlaySpeed={1000}
+        keyBoardControl={true}
+        customTransition="all .5"
+        transitionDuration={500}
+        containerClass="carousel-container"
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
+      >
+      {shopData.map(data => {
+       return <div>
+          <h3>{data.name}</h3>
+          <p> ${data.price}</p>
+          <p>{data.desc}</p>
+        </div>
+        }
+      )}
+      </Carousel>
+      {/* 
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={require(`../../img/${image}`)}
+            alt={name}
+          />
+          <Carousel.Caption>
+            <h3>{name}</h3>
+            <p>${price}</p>
+            <p>{desc}</p>
+            <StarRatingComponent
+              name="rate2"
+              editing={false}
+              renderStarIcon={() => <span>★</span>}
+              starCount={5}
+              value={score}
             />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl
-                consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </Col>
-    )
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel> */}
+    </Col>
+  );
 }

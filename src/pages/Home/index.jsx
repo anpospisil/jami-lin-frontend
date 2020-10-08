@@ -38,15 +38,75 @@ const articleData = [
     image: "citrus.jpg",
     published: "2012-06-23T18:25:43.511Z",
     updated: "2012-04-23T18:25:43.511Z",
-    tags: ["beauty, skincare"],
+    tags: ["beauty", "skincare"],
   },
-  
+];
+
+export const shopData = [
+  {
+    id: 1,
+    name: "The Five Elements",
+    price: 38.99,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.",
+    image: "5elements.jpg",
+    score: 4,
+    tags: ["feng shui"],
+  },
+  {
+    id: 2,
+    name: "The Good Vibes Starter Kit",
+    price: 49.99,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.",
+    image: "starter.jpg",
+    score: 4.5,
+    tags: ["feng shui", "spirituality"],
+  },
+  {
+    id: 3,
+    name: "Rosewood Face Cream",
+    price: 27.99,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.",
+    image: "rosewood.jpg",
+    score: 3.5,
+    tags: ["beauty", "skincare"],
+  },
+  {
+    id: 4,
+    name: "Metal Bowl Set",
+    price: 56.99,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.",
+    image: "metal.jpg",
+    score: 4,
+    tags: ["feng shui"],
+  },
+  {
+    id: 5,
+    name: "Rejuvenative Body Lotion",
+    price: 40.99,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.",
+    image: "body.jpg",
+    score: 4,
+    tags: ["beauty", "skincare"],
+  },
+  {
+    id: 6,
+    name: "Lavender Essential Oil",
+    price: 14.99,
+    desc:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.",
+    image: "oil.jpg",
+    score: 5,
+    tags: ["beauty", "skincare"],
+  },
 ];
 
 export default function Home() {
-  articleData.map(data =>
-    console.log(data.title)
-    )
+  articleData.map((data) => console.log(data.title));
   return (
     <div>
       {/* <!-- Page Content --> */}
@@ -58,9 +118,8 @@ export default function Home() {
             {/* <!--Latest Articles--> */}
             <Row>
               <Header title="Latest Articles" />
-              {articleData.map(data => 
-              <Col lg={4} md={6} mb={4}>
-              
+              {articleData.map((data) => (
+                <Col lg={4} md={6} mb={4}>
                   <ArticleCard
                     key={data.id}
                     title={data.title}
@@ -68,9 +127,8 @@ export default function Home() {
                     image={data.image}
                     tags={data.tags}
                   />
-                  
-              </Col>
-              )}
+                </Col>
+              ))}
             </Row>
             {/* <!-- /.row --> */}
             <Row>
@@ -84,9 +142,7 @@ export default function Home() {
           <Col lg={3} md={6} mb={4}>
             <h4 className="my-4 text-center">Last Viewed</h4>
             <Row>
-              <Col lg={12}>
-                {/* <ArticleCard /> */}
-              </Col>
+              <Col lg={12}>{/* <ArticleCard /> */}</Col>
             </Row>
           </Col>
           {/* <!-- /.row --> */}
