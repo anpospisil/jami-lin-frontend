@@ -40,11 +40,30 @@ There are a lot of assessments and research I did for this project which I will 
 
 ## Sketches
 
-![redesign](https://github.com/anpospisil/jami-lin-frontend/blob/development/project/sketch1.png)
+![sketch1](https://github.com/anpospisil/jami-lin-frontend/blob/development/project/sketch1.jpg)
 
-## Wireframes
+## Wireframes & Prototyping
 
-![redesign](https://github.com/anpospisil/jami-lin-frontend/blob/development/project/jamilinwireframe.png)
+You can check out a functional prototype of the below wireframe [here](https://invis.io/WMOOV3FP7SX#/326741235_JLP-Home---Wireframe-Cc-Premium_-1--pdf_1).
+
+![redesign](https://github.com/anpospisil/jami-lin-frontend/blob/development/project/jamilinwireframe1.jpg)
+
+
+## First Draft
+
+I just want to pause here for a sec to reflect on my first attempt at building a site with HTML & CSS. It's humbling to understand where I started, encouraging to know how far I've come and exciting to think of how much more I have to learn!
+
+## Next steps
+
+I have an active Kanban board for this project, but I woudl like to quickly outline a couple feature I am excited to develop:
+
+1. Click Tracking: I love the idea of a user being able to see their last viewed article. I hope to develop this further to change the product and article recommendations on the homepage.
+2. Template Email: It's clear that branding and unity of design does not end with just a website. As such, I want to improve my Email templating skills! 
+3. Favorites: I want users favorite articles to be stored so they are able to view them once signed in. I'm excited to explore Redux some more to achieve this.
+
+## Thanks!
+
+Please feel free to take a look at my other projects and add me on GitHub and/or LinkedIn.
 
 ## How to run this app
 
