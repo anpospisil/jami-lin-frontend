@@ -32,7 +32,7 @@ Got it? | Challenge |
 :heavy_check_mark:| Clear visual hierarchy with unity of design|
 :heavy_check_mark:| Mobile-Friendly!|
 
-![redesign](https://github.com/anpospisil/jami-lin-frontend/blob/development/project/redesign.png)
+![redesign](https://github.com/anpospisil/jami-lin-frontend/blob/development/project/jlredesign.png)
 
 ## UX/UI stuff
 
