@@ -1,9 +1,8 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+import { Col, Card } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import StarRatingComponent from "react-star-rating-component";
-import shopData from "../../pages/Home"
 import "./style.scss";
 
 const responsive = {
@@ -24,9 +23,10 @@ const responsive = {
   },
 };
 
-export default function MainCarousel() {
-  // const { name, price, desc, image, score } = props;
+export default function MainCarousel(props) {
+  const data = props.data;
 
+  console.log(data);
   return (
     <Col lg={12}>
       <Carousel
@@ -45,14 +45,30 @@ export default function MainCarousel() {
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
       >
-      {shopData.map(data => {
-       return <div>
-          <h3>{data.name}</h3>
-          <p> ${data.price}</p>
-          <p>{data.desc}</p>
-        </div>
-        }
-      )}
+        {data.map((data) => {
+          return (
+            <Card className="w-100">
+              <Card.Img
+                variant="top"
+                src={require(`../../img/${data.image}`)}
+              />
+              <Card.Body>
+                <Card.Title>{data.name}</Card.Title>
+                <Card.Text>${data.price}</Card.Text>
+                <Card.Text>{data.desc}</Card.Text>
+              </Card.Body>
+              <Card.Footer className="text-muted">
+                <StarRatingComponent
+                  name="rate2"
+                  editing={false}
+                  renderStarIcon={() => <span>★</span>}
+                  starCount={5}
+                  value={data.score}
+                />
+              </Card.Footer>
+            </Card>
+          );
+        })}
       </Carousel>
       {/* 
       <Carousel>
