@@ -12,11 +12,11 @@ export default function Footer() {
           </Col>
 
           <Col lg={4}>
-            <h4 className="m-0 text-center text-white">Footer Title</h4>
+            <h4 className="m-0 text-center text-white">Learn More</h4>
           </Col>
 
           <Col lg={4}>
-            <h4 className="m-0 text-center text-white">Footer Title</h4>
+            <h4 className="m-0 text-center text-white">Connect</h4>
           </Col>
         </Row>
 
